@@ -16,3 +16,4 @@ If all went well then your command line prompt should now start with `(ENV)`.
 
 If your command line prompt does not start with `(Env)` at this point, try running `source ENV/bin/activate` or `cd ../conduit-django`. 
 
+If virtualenv is still not working, visit us in the Thinkster Slack channel so we can help you out.
