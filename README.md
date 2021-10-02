@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Install [Python 3.7.2](https://www.python.org/downloads/release/python-372/).
+1. Install [Python 3.7.2](https://www.python.org/downloads/release/python-372/). or above
 
 2. `cd` into `conduit-django`: `cd conduit-django`.
 3. Install [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/#installing-virtualenv).
