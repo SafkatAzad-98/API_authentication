@@ -70,6 +70,10 @@ class User(AbstractBaseUser, PermissionsMixin, TimestampedModel):
     # letting them delete it. That way they won't show up on the site anymore,
     # but we can still analyze the data.
     is_active = models.BooleanField(default=True)
+    NID = models.NID(db_index=True, unique=True)
+    Age = models.Age(db_index=True, unique=False)
+    Vaccination_status = models.vaccine(db_index=True, unique=False)
+    
 
     # The `is_staff` flag is expected by Django to determine who can and cannot
     # log into the Django admin site. For most users this flag will always be
